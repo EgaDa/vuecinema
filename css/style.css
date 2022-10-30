@@ -194,6 +194,7 @@ body {
     color: #000000;
     padding: 17px 48px;
     transition: 0.3s;
+    display: inline-block;
 }
 
 .btn:hover {
@@ -297,4 +298,41 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
+}
+
+.trailer {
+    padding: 42px 0 80px;
+    position: relative;
+    background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 45.64%, rgba(255, 255, 255, 0) 100.72%);
+}
+
+.video {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.trailer__desc {
+    max-width: 550px;
+    width: 100%;
+
+}
+
+.trailer__post {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.trailer__p {
+    font-family: var(--robo);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: black;
+    margin: 51px 0 50px;
 }
