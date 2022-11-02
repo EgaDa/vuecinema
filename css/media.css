@@ -1,12 +1,22 @@
+@media screen and (max-width:1100px) {
+    .collections__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
 @media screen and (max-width:1040px) {
-    .card__wrap{
+    .card__wrap {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
 }
-@media screen and (max-width:768px){
-    .trailer__post{
+
+@media screen and (max-width:768px) {
+    .trailer__post {
         width: 100%;
     }
 }
@@ -38,7 +48,8 @@
         align-items: center;
     }
 }
-@media screen and (max-width:360px){
+
+@media screen and (max-width:360px) {
     .banner__h {
         font-size: 28px;
         line-height: 30px;

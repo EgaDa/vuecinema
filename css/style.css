@@ -407,3 +407,84 @@ body {
 .collect__card:hover .collect__body {
     transform: scale(1.3);
 }
+
+.collect__card:nth-child(2) {
+    background: url(../img/collect2.png) no-repeat center/cover;
+}
+
+.collect__card:nth-child(3) {
+    background: url(../img/collect3.png) no-repeat center/cover;
+}
+
+.series__game {
+    max-width: 1114px;
+    height: 436px;
+    width: 100%;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/gameofth.png) no-repeat center/cover;
+    border-radius: 6px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.series__bg {
+    background: linear-gradient(95.68deg, rgba(35, 35, 35, 0.8) 10.86%, rgba(11, 11, 11, 0.6) 110.86%);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.series__h {
+    font-family: var(--comf);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: white;
+}
+
+.series__p {
+    font-family: var(--comf);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 30px;
+}
+
+.series_wrap {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 63px;
+}
+
+.series__wanda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/scale1.png);
+    width: 540px;
+    height: 404px;
+    position: relative;
+    z-index: 10;
+}
+
+.wansa__bg {
+    background: linear-gradient(95.68deg, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
