@@ -471,14 +471,23 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(../img/scale1.png);
+    background: url(../img/scale1.png) no-repeat center/cover;
     width: 540px;
     height: 404px;
     position: relative;
     z-index: 10;
 }
 
-.wansa__bg {
+.wanda__h {
+    font-family: var(--comf);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    padding-top: 20px;
+    color: white;
+}
+
+.wanda__bg {
     background: linear-gradient(95.68deg, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%);
     border-radius: 6px;
     position: absolute;
@@ -487,4 +496,74 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+.series__assortment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 30px 30px;
+}
+
+.assortment__card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/flesh.png) no-repeat center/cover;
+    width: 255px;
+    height: 190px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 10;
+}
+
+.assortment__bg {
+    background: linear-gradient(95.68deg, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.assortment__h {
+    font-family: var(--comf);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    padding-top: 19px;
+    color: white;
+}
+
+.assortment__card:nth-child(2) {
+    background: url(../img/trailer.png);
+    margin-left: 280px;
+}
+
+.assortment__card:nth-child(3) {
+    background: url(../img/gotem.png);
+    margin-top: 214px;
+}
+
+.assortment__card:nth-child(4) {
+    background: url(../img/witcher.png);
+    margin-left: 280px;
+    margin-top: 214px;
+}
+
+.footer {
+    background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.footer__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
